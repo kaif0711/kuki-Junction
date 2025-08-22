@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+    
+/*Navbar start*/
+
+ .dropdown-menu{
+    height: 200px;
+    overflow: auto;
+    background-color: #212529;/*#212529    #252627*/
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-item{
+    color: #C2EFEB;
+  }
+  /*Navbar end*/
+
+
+
+  /*carousel start*/
+  #demo{
+    margin:  2%;
+  }
+
+.carousel-inner{
+  border-radius: 20px; 
+  align-items: center;
+}
+
+.carousel-control-prev-icon:hover{
+  color: black;
+}
+/*carousel end*/
+
+
+
+/*card start*/
+.main {
+  padding-left: 1%;
+}
+
+.text{
+  font-size: larger;
+  color: #2A9D8F;
+  text-align: center;
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+  line-height: 1.0;
+}
+
+.card{
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px rgb(92, 111, 104);
+  border-radius: 5px; 
+  margin: 1.5%;
+  color: #C2EFEB;/*C2EFEB    #A7FFF6*/
+  background-color: #252627;
+  width: 300px;
+}
+
+.card:hover{ 
+  transition: .2s;
+  color: #FFF8E8;
+  /* box-shadow: 4px 4px 40px rgb(0, 204, 153); */
+}
+/* .card:hover img {
+  transform: scale(1.1);
+  overflow: hidden;
+} */
+ 
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+ 
+.title{
+  text-align: center;
+  padding: 10px; 
+}
+
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button:hover{
+  color: black;
+}
+
+.text2{
+  font-size: larger;
+  color: #2A9D8F;
+  text-align: center;
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+  line-height: 2.0;
+}
+/*card end*/
+
+
+
+  body
+  {
+    font-family: arial;
+  }
+
+
+
+ /*footer start*/
+.bold
+{
+  font-weight: bold;
+  font-weight: 900;
+  color: #2A9D8F;
+}
+/*footer end*/
+
+
+
+@media only screen and (max-width: 2000px) {
+
+  .card{
+
+    width: 21%;
+  }
+}
+
+@media only screen and (max-width: 1452px) {
+
+  .card{
+ 
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1057px) {
+
+  .card{
+ 
+    margin-bottom: 4%;
+    width: 45%;
+
+  }
+}
+
+@media only screen and (max-width: 686.5px) {
+
+  .card{
+    width: 90%; 
+  }
+
+  
+}

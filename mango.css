@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*navbar start*/
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu{
+  height: 200px;
+  overflow: auto;
+  background-color: #212529;/*#212529    #252627*/
+}
+.dropdown-item{
+  color: #C2EFEB;
+}
+
+.d-flex:hover{
+  opacity: 50%;
+  transition: 0.5s;
+}
+/*navbar end*/
+
+
+/*carousel & image start
+.card{
+  margin-top: 2%;
+  margin-left: 2%;
+  border: #212529;
+}*/
+
+.carousel-inner{
+  border-radius: 20px; 
+  align-items: left;
+}
+
+.carousel-control-prev-icon {
+  position: static;
+  bottom: 20px;
+  left: 20px;
+}
+
+.carousel-control-next-icon {
+  position: static;
+  bottom: 20px;
+  right: 1000px;
+}
+/*carousel & image end*/
+
+
+/*product detail start*/
+.brand{
+  background: #008000;
+  width: fit-content;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-top: 2%;
+}
+h2{
+  font-size: 45px;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+.checked {
+  color: orange;
+}
+
+.price{
+  margin-top: 1%;
+  color: #fe980f;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.form-select{
+  margin-bottom: 1%;
+}
+
+input{
+  text-align: center;
+}
+
+.form-control{
+  margin-bottom: 2%;
+}
+
+#bttn {
+  margin-right: 2%;
+  min-width: 238px;
+}
+/*product detail end*/
+
+
+/*footer start*/
+.bold
+{
+  font-weight: bold;
+  font-weight: 900;
+  color: #2A9D8F;
+}
+/*footer end*/
+
+
+body{
+  font-family: arial;
+}
+
+
+/*card start*/
+.related {
+  padding-left: 4%;
+}
+
+.text{
+  font-size: larger;
+  color: #2A9D8F;
+  text-align: center;
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+  line-height: 1.0;
+}
+
+#card{
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px rgb(92, 111, 104);
+  border-radius: 5px; 
+  margin: 1.5%;
+  color: #C2EFEB;/*C2EFEB    #A7FFF6*/
+  background-color: #252627;
+  width: 300px;
+}
+
+#card:hover{
+  transition: .2s;
+  color: #FFF8E8;
+  box-shadow: 4px 4px 40px rgb(0, 204, 153);
+}
+ 
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+ 
+.title{
+  text-align: center;
+  padding: 10px; 
+}
+
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button:hover{
+  color: black;
+}
+
+.text2{
+  font-size: larger;
+  color: #2A9D8F;
+  text-align: center;
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+  line-height: 2.0;
+}
+/*card end*/
+
+
+
+
+@media only screen and (max-width: 1335px) {
+
+  .col-sm-8{
+    min-width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 2000px) {
+
+  #card{
+
+    width: 21%;
+  }
+}
+
+@media only screen and (max-width: 1452px) {
+
+  #card{
+ 
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1057px) {
+
+  #card{
+ 
+    margin-bottom: 4%;
+    width: 45%;
+
+  }
+}
+
+@media only screen and (max-width: 686.5px) {
+
+  #card{
+    width: 90%; 
+  }
+
+  #bttn{
+    margin-top: 2%;
+  }
+}
+
+/*input{
+  width: 30px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+}
+button{
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  background: #fe980f;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+}*/
+
+
+
+
+
+
